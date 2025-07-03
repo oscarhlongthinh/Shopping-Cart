@@ -29,13 +29,13 @@ Methods:
   
   + equals(): Compares items by name and price.
 
-`Catalog.java`
+**`Catalog.java`**
 
 A named collection of Item objects.
 
 Methods: add(item), get(index), size(), getName()
 
-`ItemOrder.java`
+**`ItemOrder.java`**
 
 Represents an order for a single item and quantity.
 
@@ -45,7 +45,7 @@ Methods:
 
   + getItem()
 
-`ShoppingCart.java`
+**`ShoppingCart.java`**
 
 Stores a list of ItemOrder objects.
 
