@@ -54,7 +54,7 @@ ShoppingCart.java
 
   - getTotal(): Computes total order price with optional discount.
 
-🖥️ GUI Integration
+# 🖥️ GUI Integration
 Two provided files, ShoppingFrame.java and ShoppingMain.java, create a Swing-based interface to interact with the backend:
 
 • Add/update items in cart
@@ -63,7 +63,7 @@ Two provided files, ShoppingFrame.java and ShoppingMain.java, create a Swing-bas
 
 • Toggle discount option
 
-🧪 How I Built It
+# 🧪 How I Built It
 • Developed and tested each class separately with print statements and test code.
 
 • Ensured object behavior followed best practices from the textbook (e.g., .equals(), encapsulation).
