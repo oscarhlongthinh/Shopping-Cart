@@ -60,11 +60,11 @@ Methods:
 # 🖥️ GUI Integration
 Two provided files, ShoppingFrame.java and ShoppingMain.java, create a Swing-based interface to interact with the backend:
 
-- Add/update items in cart
++ Add/update items in cart
 
-- See real-time total cost updates
++ See real-time total cost updates
 
-- Toggle discount option
++ Toggle discount option
 
 # 🧪 How I Built It
 - Developed and tested each class separately with print statements and test code.
