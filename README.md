@@ -19,9 +19,9 @@ Uses NumberFormat.getCurrencyInstance() for formatted prices
 # 🧱 Class Breakdown
 `Item.java`
 
-* Stores item name and pricing (single and optional bulk).
+Stores item name and pricing (single and optional bulk).
 
-* Methods:
+Methods:
 
   + priceFor(quantity): Calculates total price using bulk if applicable.
 
@@ -29,30 +29,33 @@ Uses NumberFormat.getCurrencyInstance() for formatted prices
   
   + equals(): Compares items by name and price.
 
-Catalog.java
-* A named collection of Item objects.
+`Catalog.java`
 
-* Methods: add(item), get(index), size(), getName()
+A named collection of Item objects.
 
-ItemOrder.java
-* Represents an order for a single item and quantity.
+Methods: add(item), get(index), size(), getName()
 
-* Methods:
+`ItemOrder.java`
+
+Represents an order for a single item and quantity.
+
+Methods:
 
   + getPrice(): Uses Item.priceFor()
 
   + getItem()
 
-ShoppingCart.java
-- Stores a list of ItemOrder objects.
+`ShoppingCart.java`
 
-- Methods:
+Stores a list of ItemOrder objects.
 
-  • add(itemOrder): Replaces order if item already exists.
+Methods:
 
-  • setDiscount(boolean): Enables/disables a 10% discount.
+  + add(itemOrder): Replaces order if item already exists.
 
-  • getTotal(): Computes total order price with optional discount.
+  + setDiscount(boolean): Enables/disables a 10% discount.
+
+  + getTotal(): Computes total order price with optional discount.
 
 # 🖥️ GUI Integration
 Two provided files, ShoppingFrame.java and ShoppingMain.java, create a Swing-based interface to interact with the backend:
