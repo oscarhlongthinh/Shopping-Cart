@@ -1,5 +1,4 @@
 # 🛒 Java Shopping Cart Backend
-
 This project is a Java-based backend system for a simple shopping cart application, developed as an assignment using principles from Building Java Programs (5th Edition). The backend connects with a provided GUI to allow users to order items, calculate total prices, and apply discounts.
 
 💡 Features
@@ -7,7 +6,7 @@ This project is a Java-based backend system for a simple shopping cart applicati
 
 - Total price calculation per order and across a shopping cart
 
-- GUI integration using Swing
++ GUI integration using Swing
 
 - 10% discount option for the entire order
 
