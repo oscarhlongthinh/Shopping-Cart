@@ -2,7 +2,7 @@
 This project is a Java-based backend system for a simple shopping cart application, developed as an assignment using principles from Building Java Programs (5th Edition). The backend connects with a provided GUI to allow users to order items, calculate total prices, and apply discounts.
 
 # 💡 Features
-* Item support with optional bulk pricing (e.g., 10 for $5.00) 
+* Item support with optional bulk pricing (e.g., 10 for $5.00) --
 * Total price calculation per order and across a shopping cart
 * GUI integration using Swing
 * 10% discount option for the entire order
