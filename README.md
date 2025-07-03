@@ -17,7 +17,7 @@ Clear object-oriented design (composition over inheritance)
 Uses NumberFormat.getCurrencyInstance() for formatted prices
 
 # 🧱 Class Breakdown
-`Item.java`
+**`Item.java`**
 
 Stores item name and pricing (single and optional bulk).
 
