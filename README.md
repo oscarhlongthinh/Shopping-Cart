@@ -21,7 +21,7 @@ Item.java
 
 - Stores item name and pricing (single and optional bulk).
 
-- Methods:
+ - Methods:
 
   • priceFor(quantity): Calculates total price using bulk if applicable.
 
