@@ -19,9 +19,9 @@ This project is a Java-based backend system for a simple shopping cart applicati
 # 🧱 Class Breakdown
 Item.java
 
-- Stores item name and pricing (single and optional bulk).
+• Stores item name and pricing (single and optional bulk).
 
- - Methods:
+- Methods:
 
   • priceFor(quantity): Calculates total price using bulk if applicable.
 
