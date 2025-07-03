@@ -3,7 +3,7 @@ This project is a Java-based backend system for a simple shopping cart applicati
 
 # 💡 Features
 * Item support with optional bulk pricing (e.g., 10 for $5.00)
-  ---
+  
 * Total price calculation per order and across a shopping cart
 * GUI integration using Swing
 * 10% discount option for the entire order
